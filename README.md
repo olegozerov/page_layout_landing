@@ -1,1 +1,1 @@
-# page_layout_landing
+Верстка макета в формате Figma
