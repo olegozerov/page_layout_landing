@@ -104,6 +104,11 @@ h1 h2 h3 {
     margin-right: 3rem;
 }
 
+.bottom-header-menu__list-item:hover>a {
+    text-shadow: 0px 0px 2px #554D89;   
+}
+
+
 .bottom-header-menu__list-item:last-child {
     font-family: 'Nunito';
     font-style: normal;
@@ -112,6 +117,11 @@ h1 h2 h3 {
     line-height: 2,1rem;
     color: #5B5766;
     margin-right: 0;
+}
+
+.main-page {
+    color: #554D89;
+    font-weight: 700;
 }
 
 
@@ -137,7 +147,6 @@ h1 h2 h3 {
     top: 2.2rem;
 }
 
- 
 
 .sub-menu__item  {
     font-family: 'Nunito';
@@ -149,6 +158,10 @@ h1 h2 h3 {
     text-decoration: none;
     list-style-type: none;
     
+}
+
+.sub-menu__item a:hover {   
+    text-shadow: 0px 0px 2px #554D89;   
 }
 
 .login-registration {
