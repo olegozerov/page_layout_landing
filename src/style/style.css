@@ -62,54 +62,44 @@ h1 h2 h3 {
     line-height: 20px;
 }
 
-.line-header {
+.separator_pd {
+    padding-top: 2.3rem;
+}
+
+.separator__line {
     height: 1px;
     background: rgba(225, 228, 237, 0.8);
-    margin-top: 2.3rem;
 }
 
 .bottom-header {
     display: flex; 
-    justify-content:start;
+    justify-content:space-between;
     align-items: center;
     margin-top: 2.6rem;
 }
 
-
-.bottom-header-menu {
+.menu_mr {
     margin-left: 5.5rem;
     margin-right: 34rem;
 }
 
-.bottom-header-menu__list {
+.menu__list {
     position: relative;
     display: flex;
     justify-content:center;
     align-items: center;
     list-style-type: none;
-  
 }
 
-.bottom-header-menu__link{
-    text-decoration: none;
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.6rem;
-    line-height: 2.1rem;
-    color: #5B5766;
-}
-
-.bottom-header-menu__list-item {
+.menu__item {
     margin-right: 3rem;
 }
 
-.bottom-header-menu__list-item:hover>a {
-    text-shadow: 0px 0px 2px #554D89;   
+.menu__item:hover>a {
+    text-shadow: 0px 0px 1px #554D89;   
 }
 
-
-.bottom-header-menu__list-item:last-child {
+.menu__item:last-child {
     font-family: 'Nunito';
     font-style: normal;
     font-weight: 400;
@@ -119,101 +109,187 @@ h1 h2 h3 {
     margin-right: 0;
 }
 
-.main-page {
-    color: #554D89;
-    font-weight: 700;
-}
-
-
-.sub-menu {
-    display: none;
-}
-
-
-
-.sub-menu_link:hover .sub-menu {
-    position: absolute;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: start;
-    padding: 3rem 10rem 3rem 3rem;
-    width: 23.5rem;
-    height: 20.5rem;
-    background: #FFFFFF;
-    box-shadow: 0px 0px 20px #E1E4ED;
-    border-radius: 10px;
-    display: flex;
-    left: 30rem;
-    top: 2.2rem;
-}
-
-
-.sub-menu__item  {
+.menu__link{
+    text-decoration: none;
     font-family: 'Nunito';
     font-style: normal;
     font-weight: 400;
     font-size: 1.6rem;
     line-height: 2.1rem;
     color: #5B5766;
+}
+
+.menu-active {
+    color: #554D89;
+    font-weight: 700;
+}
+
+.sub-menu {
+    width: 23.5rem;
+    height: 20.5rem;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px #E1E4ED;
+    border-radius: 10px;
+}       
+
+.sub-menu_hide {
+    display: none;
+    padding: 3rem 10rem 3rem 3rem;
+}
+
+.menu_dropdown:hover .sub-menu {
+    position: absolute;
+    left: 30rem;
+    top: 2.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
     text-decoration: none;
-    list-style-type: none;
-    
+}
+
+.sub-menu__link {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.1rem;
+    color: #5B5766; 
+    text-decoration: none;
+}
+
+.sub-menu__item {
+    list-style-type: none; 
 }
 
 .sub-menu__item a:hover {   
-    text-shadow: 0px 0px 2px #554D89;   
+    text-shadow: 0px 0px 1px #554D89;   
 }
 
-.login-registration {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.login-registration__login {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 0.8rem;
+.button_light {
     border: 0.1rem #6852ED solid;
-    width: 7.3rem;
+    border-radius: 4rem;
     height: 4rem;
+}
+
+.button__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 1.4rem;
     line-height: 2.1rem;
-    text-align: center;
-    color: #6852ED solid;
-    border-radius: 4rem;
     text-decoration: none;
+    padding: 0.8rem 1.5rem 1rem 1.5rem;
+    color: #6852ED;
 }
 
-.login-registration__text {
+.standart-text {
     font-family: 'Nunito';
     font-style: normal;
     font-weight: 400;
     font-size: 1.6rem;
     line-height: 2.2rem;
     color: #716C80;
-    margin-right: 0.8rem;
 }
 
-.login-registration__registration {
+.standart-text__mr {
+    margin: 0 0.8rem 0 0.8rem;
+}
+
+.flex-row {
     display: flex;
+}
+
+.center {
     justify-content: center;
     align-items: center;
-    margin-right: 0.8rem;
-    border: 0.1rem #6852ED solid;
-    width: 15rem;
+}
+
+.space-between {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.start {
+    justify-content: start;
+    align-items: center;
+}
+
+.hero__content {
+    padding-right: 2.4rem;
+}
+
+.hero__h1-text {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 5rem;
+    line-height: 6rem;
+    color: #554D89;
+   
+}
+
+.hero_text {
+    font-weight: 400;
+    font-size: 2.2rem;
+    line-height: 3.3rem;
+    color: #5B5766;
+    margin-top: 3.2rem;
+}
+
+.button-group {
+    margin-top: 4rem;
+}
+
+.button_dark {
+    background: linear-gradient(26.57deg, #6852ED 16.67%, #BA43FC 100%);
+    border-radius: 4rem;
     height: 4rem;
+    margin: 0 3rem 0 0;
+}
+
+.button_dark .button__link {
+    color: #FFFFFF;
+    margin: 0 1.5rem;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+}
+
+.button-group__order {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 1.4rem;
-    line-height: 2.1rem;
-    text-align: center;
-    color: #6852ED solid;
-    border-radius: 4rem;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: #554D89;
     text-decoration: none;
+}
+
+.button-group__order::after {
+    content: url('../icons/long-arrow-right.png');
+    width: 2rem;
+    height: 1.8rem;
+    margin-left: 1.5rem;
+}
+
+.hiro-img {
+    position: relative;
+}
+
+.hiro-img__size {
+    padding-top: 10.5rem;
+}
+
+.down-arrow{
+    position: absolute;
+    width: 10.5rem;
+    height: 10.5rem;
+    background: #6852ED;
+    border-radius: 50%;
+    top: 1rem;
+    left: 1rem;
+}
+.down-arrow__link {  
+    content: url('../icons/long-arrow-down.png');    
 }
