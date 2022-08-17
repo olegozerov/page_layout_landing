@@ -148,16 +148,6 @@ h1 h2 h3 {
     text-decoration: none;
 }
 
-.sub-menu__link {
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.6rem;
-    line-height: 2.1rem;
-    color: #5B5766; 
-    text-decoration: none;
-}
-
 .sub-menu__item {
     list-style-type: none; 
 }
@@ -218,8 +208,8 @@ h1 h2 h3 {
     align-items: center;
 }
 
-.hero__content {
-    padding-right: 2.4rem;
+.hero__con {
+    padding-bottom: 12rem;
 }
 
 .hero__h1-text {
@@ -273,23 +263,114 @@ h1 h2 h3 {
     margin-left: 1.5rem;
 }
 
-.hiro-img {
+.hiro-content {
     position: relative;
 }
 
-.hiro-img__size {
+.hiro-content__img {
     padding-top: 10.5rem;
+    width: 774px;
 }
 
 .down-arrow{
     position: absolute;
-    width: 10.5rem;
-    height: 10.5rem;
+    width: 11rem;
+    height: 11rem;
     background: #6852ED;
     border-radius: 50%;
-    top: 1rem;
-    left: 1rem;
+    top: 72.5rem;
+    left: 13.5rem;
 }
+
 .down-arrow__link {  
     content: url('../icons/long-arrow-down.png');    
+}
+
+.cards__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 3rem 3rem;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 1rem #E1E4ED;
+    border-radius: 1rem;
+    margin-top: 14rem;
+    height: 229px;
+    width: 360px;
+}
+
+.cards__card:hover {
+    background: linear-gradient(26.57deg, #6852ED 16.67%, #BA43FC 100%);
+    box-shadow: 0px 0px 20px rgba(104, 82, 237, 0.8);
+    border-radius: 10px;
+
+}
+
+.cards__card:hover .cards_hide-img {
+    display: none;
+}
+
+.cards__card:hover .cards__h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+
+.cards__card:hover .cards__text {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.cards__card:hover .cards__h2 {
+    margin-top: 0;
+}
+
+.cards__text-hover {
+    display: none;
+}
+
+.cards__card:hover .cards__text-hover {
+    display: block;
+    content: "Read more";
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-top: 1.9rem;
+    text-decoration: none;
+}
+
+.cards__card:hover .cards__text-hover::after {
+    content: url('../icons/long-arrow-right\ \(1\).png');
+    margin-left: 1.5rem;
+}
+
+.cards__h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    color: #554D89;
+    margin-top: 3rem;
+}
+
+.cards__text {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #716C80;
+    margin-top: 1.9rem;
 }
