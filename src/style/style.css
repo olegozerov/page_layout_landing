@@ -135,17 +135,19 @@ h1 h2 h3 {
 .sub-menu_hide {
     display: none;
     padding: 3rem 10rem 3rem 3rem;
+    
 }
 
 .menu_dropdown:hover .sub-menu {
     position: absolute;
-    left: 30rem;
+    left: 28rem;
     top: 2.2rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: start;
     text-decoration: none;
+    z-index: 100;
 }
 
 .sub-menu__item {
