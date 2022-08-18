@@ -195,6 +195,11 @@ h1 h2 h3 {
     display: flex;
 }
 
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
 .center {
     justify-content: center;
     align-items: center;
@@ -236,10 +241,6 @@ h1 h2 h3 {
     margin-top: 3.2rem;
 }
 
-.split-section__con {
-    padding-bottom: 0;
-}
-
 .split-section__h2-text {
     font-family: 'Poppins';
     font-style: normal;
@@ -262,6 +263,28 @@ h1 h2 h3 {
 .split-section__img {
     padding-top: 12rem;
     width: 680px;
+}
+
+.split-section__content{
+    padding-right: 12rem;
+}
+
+.split-section__content2{
+    padding-left: 10rem;
+}
+
+.split-section__img2 {
+    padding-top: 12.8rem;
+    width: 631px;
+    
+}
+
+.ss_h2t {
+    width: 51rem;
+}
+
+.ss_2t {
+    width: 51rem;
 }
 
 .button-group {
@@ -408,4 +431,49 @@ h1 h2 h3 {
     line-height: 28px;
     color: #716C80;
     margin-top: 1.9rem;
+}
+
+.video__bg {
+    margin-top: 12.5rem;
+    min-height: 48rem;
+    background: url('../img/bg-video.png') center center no-repeat ;
+}
+
+.video__play-button {  
+    border-radius: 50% 50%;
+    width: 8rem;
+    height: 8rem;
+    background: linear-gradient(26.57deg, #6852ED 16.67%, #BA43FC 100%);
+    text-decoration: none;
+    margin-top: 14rem;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.video_link{
+    content: url('../icons/play.png')
+}
+
+.video__h2 {
+    margin-top: 2.4rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.8rem;
+    line-height: 4.2rem;
+    text-align: center;
+    color: #554D89;
+}
+
+.video__text {
+    margin-top: 1.9rem;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #5B5766;
+    width: 41rem;
 }
