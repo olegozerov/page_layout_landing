@@ -210,6 +210,11 @@ h1 h2 h3 {
     align-items: center;
 }
 
+.space-between-top {
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
 .start {
     justify-content: start;
     align-items: center;
@@ -543,10 +548,28 @@ h1 h2 h3 {
 }
 
 .skillbar__bar {
-    width: 53.3rem;
-    height: 0.6rem;
     background: #6852ED;
     border-radius: 2.5px 0px 0px 2.5px;
+}
+
+.skillbar__percent_1 {
+    width: 53.3rem;
+    height: 0.6rem;
+}
+
+.skillbar__percent_2 {
+    width: 45rem;
+    height: 0.6rem;
+}
+
+.skillbar__percent_3 {
+    width: 50rem;
+    height: 0.6rem;
+}
+
+.skillbar__percent_4 {
+    width: 46rem;
+    height: 0.6rem;
 }
 
 .service__solution_skill {
@@ -557,4 +580,327 @@ h1 h2 h3 {
 .skillbar__first {
     margin-top: 11rem;
 }
+
+.action {
+    min-height: 17rem;
+    background: url('../img/bg-action.png') center center no-repeat
+}
+
+.action__text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #554D89;    
+}
+
+.action_mr {
+    margin-top: 14rem;
+    margin-bottom: 14rem;
+}
+
+.price__card {
+    padding: 6rem 6rem 6rem 6rem;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px #E1E4ED;
+    border-radius: 10px;
+    height: 616px;
+    width: 360px;   
+}
+
+.price__header {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #554D89;
+    margin-bottom: 14;
+}
+
+.price__cep {
+    background: #BA43FC;
+    border-radius: 2px;
+    width: 4rem;
+    height: 0.2rem;
+    margin-bottom: 14;
+}
+
+.price__dollar {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    color: #554D89;
+    margin-bottom: 1rem;
+}
+
+.price__time {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #5B5766;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    margin-bottom: 6rem;
+}
+
+.price__list {
+    margin-bottom: 6rem;
+}
+
+.price__item {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #716C80;
+    margin-bottom: 1rem;
+    list-style-type: none;
+}
+
+.price_opacity-mode {
+    color: #716C80;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.price__item + .price_opacity-mode::before {
+    content: url('../icons/times.png');
+    margin-right: 1.03rem;
+    width: 1.5rem;
+    height: 1.8rem;
+}
+
+.price__list li::before {
+    content: url('../icons/check.png');
+    margin-right: 1rem;
+    width: 1.8rem;
+    height: 1.8rem;
+}
+
+.support__icon {
+    width: 32px;
+    height: 32px;
+    text-decoration: none;
+}
+
+.support__link {
+    margin-right: 3rem;
+}
+
+.support__header {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #554D89;
+    margin-top: 14rem;
+    margin-bottom: 2rem;
+}
+
+.support__text {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #716C80;
+    margin-bottom: 2.8rem;
+    
+}
+
+.foo {
+    margin-top: 12rem;
+    background: url('../img/bg-footer.jpg') center center no-repeat;
+    min-height: 500px;
+    padding: 10rem 0 8.8rem 0;
+}
+
+.contacts__h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-bottom: 3rem;
+}
+
+.question__text {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.queston__tel {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.queston__tel:hover {
+    text-decoration: underline;
+}
+
+address {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-top: 3rem;
+}
+.question__block {
+    margin-left: 2rem;
+}
+
+.addr{
+    margin-bottom: 1rem;
+    width: 36rem;
+}
+
+.mail {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.mail:hover {
+    text-decoration: underline;
+}
+
+.links__h2 {
+    margin-bottom: 3rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #554D89;
+}
+
+.links__link {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #554D89;
+    margin-bottom: 1rem;
+    text-decoration: none;
+}
+
+.links__link:hover {
+    text-decoration: underline;
+}
+
+.links__section-1:last-child {
+    margin-bottom: 0;
+}
+
+.links__section {
+    margin-bottom: 7rem;
+}
+
+.links__section-1 {
+    margin-right: 6.7rem;
+}
+
+.links__sep {
+    width: 9.9rem;
+    height: 0.4rem;
+    background: #E1DCFF;
+    margin-bottom: 1.3rem;
+}
+
+.links__copiright {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #716C80;
+}
+.links__section-2 {
+    justify-content: start;
+    align-items:flex-start;
+    margin-right: 8.8rem;
+}
+
+.contacts {
+    justify-content: start;
+    align-items:flex-start;
+}
+
+.subscribe {
+    justify-content:start;  
+    align-items:flex-start;
+}
+
+.subscribe__h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #554D89;
+}
+
+.subscribe__send {
+    margin-top: 3rem;
+    border: 1px solid #6852ED;
+    border-radius: 25px;
+    height: 5rem;
+    width: 30rem;
+    margin-bottom: 3rem;
+    padding-left: 1rem;
+}
+
+.subscribe__text {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #716C80;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    width: 263px;
+}
+
+.send__field {
+    border: none;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #716C80;
+}
+
+.send__field:focus-visible {
+    border: 1px solid #6852ED;
+}
+
+
+
+
+
+
+
+
 
