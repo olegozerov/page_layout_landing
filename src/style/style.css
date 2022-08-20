@@ -215,6 +215,11 @@ h1 h2 h3 {
     align-items: center;
 }
 
+.start-c {
+    justify-content: center;
+    align-items: start;
+}
+
 .row-reversed {
     flex-direction: row-reverse;
 }
@@ -279,11 +284,7 @@ h1 h2 h3 {
     
 }
 
-.ss_h2t {
-    width: 51rem;
-}
-
-.ss_2t {
+.split-section_widht {
     width: 51rem;
 }
 
@@ -477,3 +478,26 @@ h1 h2 h3 {
     color: #5B5766;
     width: 41rem;
 }
+
+.service__card-mr {
+    margin-bottom: 3rem;
+    margin-right: 3rem;
+    margin-top: 0;
+}
+
+.service__card-mr-top1 {
+    margin-top: 7.2rem;
+}
+
+.service__card-mr-top2 {
+    margin-top: 10.2rem;
+}
+
+.service__solution {
+    padding-left: 3rem
+}
+
+.split-section_widht2 {
+    width: 40rem;
+}
+
