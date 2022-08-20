@@ -501,3 +501,60 @@ h1 h2 h3 {
     width: 40rem;
 }
 
+.split-section_widht3 {
+    width: 55.4rem;
+}
+
+.service__solution h2 {
+    margin-top: 11rem;
+    margin-right: 5.1rem;
+    width: 33rem;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 44px;
+}
+
+.skill h2 {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 44px;
+}
+
+.skillbar__text {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #5B5766;    
+}
+
+.skillbar__pd {
+    padding-bottom: 1rem;
+}
+
+.skillbar__frame {
+    width: 55.5rem;
+    height: 0.6rem;
+    background: rgba(225, 228, 237, 0.6);
+    border-radius: 2.5px;
+    margin-bottom: 3rem;
+}
+
+.skillbar__bar {
+    width: 53.3rem;
+    height: 0.6rem;
+    background: #6852ED;
+    border-radius: 2.5px 0px 0px 2.5px;
+}
+
+.service__solution_skill {
+    padding-right: 3.1rem;
+    padding-left: 0;
+}
+
+.skillbar__first {
+    margin-top: 11rem;
+}
+
