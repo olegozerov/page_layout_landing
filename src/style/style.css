@@ -893,9 +893,16 @@ address {
 }
 
 .send__field:focus-visible {
-    border: 1px solid #6852ED;
+    outline:none;
 }
 
+.subscribe__submit {
+    border: none;
+    background: url("../icons/paper-plane.png") center center no-repeat;
+    width: 2.2rem;
+    height: 2.6rem;
+    margin-right: 2rem;
+}
 
 
 
